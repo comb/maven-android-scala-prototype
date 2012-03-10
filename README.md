@@ -5,7 +5,7 @@ This setup works. We use it with multiple clients.
 - Install JDK 1.5+.
 - Install the Android SDK.
 - Install Maven 3.0.3+.
-- Set the ennvironment variable `ANDROID_HOME` to the path of your Android SDK.
+- Set the ennvironment variable `$ANDROID_HOME` to the path of your Android SDK.
 - Add `$ANDROID_HOME/tools` and `$ANDROID_HOME/platform_tools` to your `$PATH`.
 
 ## Compile & Run on Attached Device or Running Emulator ##
