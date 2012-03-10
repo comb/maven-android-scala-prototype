@@ -10,8 +10,10 @@ This setup works. We use it with multiple clients.
 
 ## Create Device ##
 Choose whether you want to develop on a physical phone or an emulator.
+
 ### Physical device ###
 - Just plug your device into your computer. If on Ubuntu, also see Troubleshooting section below.
+
 ### Emulator ###
 - Launch the SDK Manager with `android` and install the "SDK Platform" under Android 2.2 ("Froyo"). Restart the SDK manager if prompted.
 - Launch SDK Manager with `android` and create an emulator. Start the emulator.
