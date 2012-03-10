@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    a:versionCode="1"
+    a:versionName="1.0.0-SNAPSHOT"
+    package="com.example"
+    >
+
+  <uses-sdk
+      a:minSdkVersion="8"
+      a:targetSdkVersion="8"
+      />
+
+  <application
+      a:debuggable="true"
+      a:label="@string/app_name"
+      a:icon="@drawable/android:star_big_on"
+      a:installLocation="auto"
+      >
+    <activity a:name=".MainActivity">
+      <intent-filter>
+        <action a:name="android.intent.action.MAIN" />
+        <category a:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>

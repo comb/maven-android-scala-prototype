@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    a:gravity="center"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:padding="5dp"
+    a:text="@string/app_name"
+    a:textSize="20sp"
+    a:textStyle="bold"
+    xmlns:a="http://schemas.android.com/apk/res/android"
+    />
