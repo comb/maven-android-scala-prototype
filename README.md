@@ -7,10 +7,16 @@ This setup works. We use it with multiple clients.
 - Install Maven 3.0.3+.
 - Set the ennvironment variable `$ANDROID_HOME` to the path of your Android SDK.
 - Add `$ANDROID_HOME/tools` and `$ANDROID_HOME/platform_tools` to your `$PATH`.
+- Launch the SDK Manager with `android` and install the "SDK Platform" under Android 2.2 ("Froyo"). Restart the SDK manager if prompted.
+- Launch SDK Manager with `android` and create an emulator. Start the emulator.
 
 ## Compile & Run on Attached Device or Running Emulator ##
 
+    $ git clone https://github.com/comb/maven-android-scala-prototype.git
+    $ cd maven-android-scala-prototype
     $ mvn clean install android:deploy
+    
+Once that is done, open the app drawer on the emulator and launch the "Maven Android Scala Prototype" app.
 
 ## Help ##
 
