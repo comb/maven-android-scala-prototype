@@ -16,7 +16,7 @@ Choose whether you want to develop on a physical phone or an emulator.
 
 ### Emulator ###
 - Launch the SDK Manager with `android` and install the "SDK Platform" under Android 2.2 ("Froyo"). Restart the SDK manager if prompted.
-- Launch SDK Manager with `android` and create an emulator. Start the emulator.
+- Launch AVD Manager with `android avd` and create an emulator using the default values and the target "Android 2.2 - API Level 8". Start the emulator.
 
 ## Compile & Run on Attached Device or Running Emulator ##
 
