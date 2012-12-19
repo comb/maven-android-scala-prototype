@@ -77,7 +77,7 @@
       <plugin>
         <groupId>com.jayway.maven.plugins.android.generation2</groupId>
         <artifactId>android-maven-plugin</artifactId>
-        <version>3.1.1</version>
+        <version>3.4.1</version>
         <configuration>
           <emulator> <avd>wvga</avd> </emulator>
           <manifest> <debuggable>true</debuggable> </manifest>
